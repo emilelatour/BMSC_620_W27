@@ -1,0 +1,95 @@
+---
+title: "Course Schedule"
+date-modified: "today"
+format: 
+  html:
+    page-layout: full
+    css: assets/css/styles.css
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(gt)
+library(here)
+
+# Load date definitions
+source(here("class_dates.R"))
+
+# Helper function to evaluate date variables safely
+get_date_string <- function(var_name) {
+  if (is.na(var_name) || var_name == "") return("")
+  if (exists(var_name)) {
+    val <- get(var_name)
+    # return(format(val, "%m/%d"))
+    return(format(val, '%a, %m/%d'))
+  }
+  return(var_name)
+}
+```
+
+```{r build-table, echo=FALSE, message=FALSE, warning=FALSE}
+# Load and process schedule data
+schedule_raw <- read_csv(here("schedule_data.csv"), show_col_types = FALSE)
+
+schedule_formatted <- schedule_raw %>%
+  rowwise() %>%
+  mutate(
+    # Fetch formatted date string from class_dates.R
+    Date = get_date_string(date_var),
+    
+    # Format Topic / Due Date highlight styling
+    Topic = case_when(
+      type == "due_date" ~ sprintf('<span style="color: #3070BF; font-weight: bold;">%s</span>', topic),
+      type == "lab" ~ sprintf('<em>%s</em>', topic),
+      TRUE ~ topic
+    ),
+    
+    # Generate Iconify links
+    `Key Info` = if_else(
+      !is.na(key_info) & key_info != "", 
+      sprintf('[<iconify-icon icon="tabler:info-circle-filled" width="26" height="26"></iconify-icon>](%s)', key_info), 
+      ""
+    ),
+    
+    Slides = case_when(
+      !is.na(slides_qmd) & slides_qmd != "" & !is.na(slides_pdf) & slides_pdf != "" ~ 
+        sprintf('[<iconify-icon icon="ri:slideshow-fill" width="26" height="26"></iconify-icon>](%s) &nbsp;&nbsp; [<iconify-icon icon="bi:file-earmark-pdf-fill" width="22" height="22"></iconify-icon>](%s)', slides_qmd, slides_pdf),
+      !is.na(slides_qmd) & slides_qmd != "" ~ 
+        sprintf('[<iconify-icon icon="ri:slideshow-fill" width="26" height="26"></iconify-icon>](%s)', slides_qmd),
+      !is.na(slides_pdf) & slides_pdf != "" ~ 
+        sprintf('[<iconify-icon icon="bi:file-earmark-pdf-fill" width="22" height="22"></iconify-icon>](%s)', slides_pdf),
+      TRUE ~ ""
+    ),
+    
+    Recording = if_else(
+      !is.na(recording) & recording != "", 
+      sprintf('[<iconify-icon icon="mdi:video" width="28" height="28"></iconify-icon>](%s)', recording), 
+      ""
+    )
+  ) %>%
+  ungroup() %>%
+  select(
+    Week = week, 
+    Date, 
+    Lesson = lesson, 
+    Topic, 
+    Readings = readings, 
+    `Key Info`, 
+    Slides, 
+    Recording
+  )
+
+# Render GT Table
+schedule_formatted %>%
+  mutate(Week = lamisc::check_above(Week), 
+         Date = lamisc::check_above(Date)) |> 
+  gt() %>%
+  fmt_markdown(columns = c(Topic, `Key Info`, Slides, Recording)) %>%
+  cols_align(align = "center", columns = c(Week, Date, Lesson, Readings, `Key Info`, Slides, Recording)) %>%
+  cols_align(align = "left", columns = c(Topic)) %>%
+  sub_missing(missing_text = "") %>%
+  tab_options(
+    table.width = pct(100),
+    column_labels.font.weight = "bold"
+  )
+```

@@ -1,20 +1,64 @@
 project:
   type: website
+  # execute-dir: project
+  # output-dir: docs  # Uncomment if hosting on GitHub Pages via docs/ directory
 
 website:
-  title: "My Website"
-  search: false
-  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Made with ❤️ and Quarto"
+  title: "BMSC 620: Introduction to Biostatistics"
+  back-to-top-navigation: true
   navbar:
+    background: primary
+    foreground: "#fff"
+    search: true
+    # collapse-below: sm
+    # right:
+    #   - href: schedule.qmd
+    #     text: Schedule
+    #   - text: Course info
+    #     menu:
+    #       - href: syllabus.qmd
+    #         text: Syllabus
+    #       - href: instructors.qmd
+    #         text: Instructors
+    #       # - href: resources.qmd
+    #       #   text: Resources
+    #   - href: homework.qmd
+    #     text: Homework
+    #   - href: exams.qmd
+    #     text: Exams
+    #   - href: resources.qmd
+    #     text: Resources
+    collapse-below: md  # Switched to 'md' so flat links don't wrap on medium screens
     right:
-      - text: Home
-        href: index.qmd
-    tools: 
-      - icon: github
-        text: Github
-        href: https://github.com
+      # - href: index.qmd
+      #   text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: instructors.qmd
+        text: Instructors
+      - href: homework.qmd
+        text: Homework
+      - href: exams.qmd
+        text: Exams
+      - href: resources.qmd
+        text: Resources
+
+execute:
+  freeze: auto
 
 format:
   html:
-    theme: [styles.scss, brand]
+    theme: flatly
+    css: assets/css/styles.css
+    toc: true
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    fontsize: 1.05em
+    include-in-header:
+      text: |
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+

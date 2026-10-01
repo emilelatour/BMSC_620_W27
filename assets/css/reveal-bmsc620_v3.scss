@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+
+// #00796B (teal, but more readable than your muted one)
+// #0072B2 (Okabe-Ito blue, very readable)
+// $bmsc-teal: #18BC9C !default;
+
+/* Accent color that matches your Flatly site */
+$bmsc-teal: #18BC9C !default;
+
+/* Base typography */
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+$presentation-font-size-root: 34px !default; /* adjust if you want bigger/smaller */
+$presentation-heading-font-weight: 650 !default;
+
+/* Reveal/Quarto variables */
+$presentation-heading-color: $bmsc-teal !default;
+$presentation-title-slide-text-align: left !default;
+$link-color: $bmsc-teal !default;
+
+/* Code */
+$code-block-font-size: 0.75em !default;
+
+/*-- scss:rules --*/
+
+/* Make body text slightly darker and readable */
+.reveal {
+  color: #222;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  letter-spacing: -0.01em;
+}
+
+/* A simple "box" style you can reuse */
+.reveal .box {
+  border-left: 6px solid $bmsc-teal;
+  padding: 0.6em 0.9em;
+  background: rgba(24, 188, 156, 0.08);
+  border-radius: 10px;
+}
+
+/* Callouts (Quarto callouts render in reveal) */
+.reveal .callout {
+  border-radius: 12px;
+}
+.reveal .callout .callout-title {
+  font-weight: 700;
+}
+
+/* Make inline code a bit clearer */
+.reveal code {
+  font-size: 0.95em;
+}
+
+/* Footer styling */
+.reveal .footer {
+  font-size: 0.55em;
+  opacity: 0.85;
+}
+
+
+/* Links: visible without underlines */
+.reveal a,
+.reveal a:visited {
+  color: #0F766E;       /* darker teal-blue than headings */
+  font-weight: 600;
+}
+
+.reveal a:hover {
+  color: #0B5F5A;
+}

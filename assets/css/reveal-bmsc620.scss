@@ -1,0 +1,69 @@
+/* BMSC 620 reveal tweaks (minimal, safe) */
+
+/* Typography + spacing */
+.reveal {
+  font-size: 34px;
+  color: #222;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+  letter-spacing: -0.01em;
+  font-weight: 650;
+}
+
+/* Accent color used sparingly (links + bold) */
+:root {
+  --bmsc-accent: #00796B; /* clearer, projector-safe link blue */
+}
+
+.reveal a,
+.reveal a:visited {
+  color: var(--bmsc-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.12em;
+}
+
+.reveal a:hover {
+  text-decoration-thickness: 3px;
+}
+
+.reveal strong {
+  color: var(--bmsc-accent);
+}
+
+/* Code readability */
+.reveal pre code { font-size: 0.8em; }
+.reveal code { font-size: 0.95em; }
+
+/* Footer */
+.reveal .footer { font-size: 0.55em; opacity: 0.85; }
+
+/* Title slide: just left align and cap width so long titles wrap nicely */
+.reveal .slides section:first-of-type h1 {
+  text-align: left;
+  max-width: 18em;
+}
+.reveal .slides section:first-of-type p {
+  text-align: left;
+}
+
+/* Force links to look like links (override reveal theme) */
+.reveal a,
+.reveal a:visited,
+.reveal a code {
+  color: var(--bmsc-accent) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.12em;
+}
+
+/* Backup underline in case text-decoration gets nuked */
+.reveal a,
+.reveal a:visited {
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 0.05em;
+}
+
+.reveal a:hover {
+  border-bottom-width: 3px;
+  }
