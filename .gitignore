@@ -1,4 +1,17 @@
+# RStudio
 .Rproj.user
+.Rhistory
+.RData
 
+# Quarto build output and caches
 /.quarto/
+/_site/
+/site_libs/
 **/*.quarto_ipynb
+*_files/
+
+# Folder for staging and development
+/_staging/
+
+# macOS
+.DS_Store

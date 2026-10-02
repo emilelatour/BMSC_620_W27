@@ -1,0 +1,59 @@
+---
+title: "Exams"
+date-modified: "today"
+format: 
+  html:
+    link-external-newwindow: true
+    page-layout: full
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: false  # always re-run so edits to class_dates.R / schedule_data.csv show up
+---
+
+```{r setup, include=FALSE}
+library(here)
+source(here("class_dates.R"))
+
+# Exam dates live in class_dates.R (midterm_open, midterm_due, final_open,
+# final_due). They show as "TBA" until set.
+exam_fmt <- "%A, %B %e"
+```
+
+Both exams are take-home, open-note, and completed independently. Exam files and submission are on [Sakai](https://sakai.ohsu.edu/). See the [Syllabus](syllabus.qmd) for full exam policies, including the policy on AI tools and late submissions.
+
+## Midterm exam
+
+**Available:** `{r} fmt_date(midterm_open, exam_fmt)` through `{r} fmt_date(midterm_due, exam_fmt)`
+
+**Covers:** TBA
+
+**Time to budget:** 3–5 hours (you don't need to complete it in one sitting)
+
+**Review materials:** *Posted closer to the exam.*
+
+## Final exam
+
+**Available:** `{r} fmt_date(final_open, exam_fmt)` through `{r} fmt_date(final_due, exam_fmt)`
+
+**Covers:** Cumulative, with an emphasis on material after the midterm
+
+**Time to budget:** 4–6 hours (you don't need to complete it in one sitting)
+
+**Review materials:** *Posted closer to the exam.*
+
+## Submitting your exam
+
+Upload **both** files to Sakai:
+
+1. Your `.qmd` source file
+2. The rendered `.html` file
+
+**File naming:** `Lastname_FirstInitial_Midterm` or `Lastname_FirstInitial_Final` (e.g., `Smith_J_Midterm.qmd` and `Smith_J_Midterm.html`)
+
+## Reminders
+
+- **Open book/notes:** You may use course materials, the course website, R documentation, and your notes.
+- **Work independently:** You may discuss general concepts with classmates, but do not share code, written responses, or solutions.
+- **AI tools:** Limited use only, such as clarifying an R error message. AI tools may not be used to generate solutions, interpret results, or write responses.
+- **Check before submitting:** Make sure your document renders to HTML without errors.

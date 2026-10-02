@@ -1,0 +1,93 @@
+---
+title: "Homework"
+date-modified: "today"
+format: 
+  html:
+    link-external-newwindow: true
+    page-layout: full
+    toc: false
+editor_options: 
+  chunk_output_type: console
+execute:
+  freeze: false  # always re-run so edits to class_dates.R / schedule_data.csv show up
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+source(here("class_dates.R"))
+
+# ---- Homework list -----------------------------------------------------------
+# Fill in `files` (OneDrive folder link) and `preview` (path to the HW .qmd)
+# as each assignment is posted. Leave as NA until then; the table shows
+# "Posted soon" for anything not filled in.
+
+hw_list <- tribble(
+  ~hw, ~files,  ~preview,
+  0,   NA,      NA,  # "homework/HW00/HW00.qmd"
+  1,   NA,      NA,
+  2,   NA,      NA,
+  3,   NA,      NA,
+  4,   NA,      NA,
+  5,   NA,      NA,
+  6,   NA,      NA,
+  7,   NA,      NA,
+  8,   NA,      NA
+)
+
+link_or_soon <- function(url, text) {
+  if_else(is.na(url), "*Posted soon*", sprintf("[%s](%s)", text, url))
+}
+
+hw_table <- hw_list %>%
+  mutate(
+    num     = sprintf("%02d", hw),
+    Due     = map_chr(hw, ~ fmt_date(get(paste0("hw", .x)))),
+    Files   = link_or_soon(files, paste0("HW ", num, " files (OneDrive)")),
+    Preview = link_or_soon(preview, paste0("View HW ", num))
+  ) %>%
+  select(HW = hw, `Due (@ 11 pm)` = Due, Files, Preview)
+
+due_weekday <- format(hw0, "%A")
+```
+
+::: callout-note
+## File naming and submission
+
+**File naming**: `Lastname_FirstInitial_HW##` (example: `Latour_E_HW01`)
+
+**Submit both** files on Sakai:
+
+-   Lastname_FirstInitial_HW##.qmd
+-   Lastname_FirstInitial_HW##.html
+:::
+
+Homework assignments are due on **`{r} due_weekday`s at 11:00 pm** unless otherwise noted.
+
+Start from the provided `.qmd` template for each assignment.
+
+## Homework schedule
+
+All homework files are distributed through OneDrive. Each homework link contains everything you need for that assignment. Links will appear here as assignments are posted. Due dates are tentative until the term begins; the [Schedule](schedule.qmd) and Sakai have the final dates.
+
+Homework solutions will be posted in Sakai after the submission deadline. These are provided for review and learning purposes.
+
+```{r hw-table, echo=FALSE, results='asis'}
+knitr::kable(hw_table, format = "pipe", align = "cccc")
+```
+
+## Grading rubric (10 points)
+
+Each homework is graded on a 10-point scale:
+
+-   **Substantial completion (6 points)**: \~75-80% of parts attempted with a genuine effort
+-   **Demonstrated process (2 points)**: relevant work shown; R code included when used
+-   **Interpretation and communication (2 points)**: brief written interpretation in context when appropriate
+
+Homework is graded primarily for **effort, reasoning, and clarity**, not strict correctness. See the [Syllabus](syllabus.qmd) for full details.
+
+### Late homework
+
+Late homework is accepted for **partial credit (up to 80% of total points)**.
+
+Feedback is provided **only** for homework submitted on time.

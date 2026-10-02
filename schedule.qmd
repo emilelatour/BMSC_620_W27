@@ -5,25 +5,23 @@ format:
   html:
     page-layout: full
     css: assets/css/styles.css
+execute:
+  freeze: false  # always re-run so edits to class_dates.R / schedule_data.csv show up
 ---
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(gt)
 library(here)
 
 # Load date definitions
 source(here("class_dates.R"))
 
-# Helper function to evaluate date variables safely
+# Look up a date variable from class_dates.R by name (e.g., "w1d1", "hw0").
+# Returns "TBA" for dates not yet set, and the raw text if no variable matches.
 get_date_string <- function(var_name) {
   if (is.na(var_name) || var_name == "") return("")
-  if (exists(var_name)) {
-    val <- get(var_name)
-    # return(format(val, "%m/%d"))
-    return(format(val, '%a, %m/%d'))
-  }
-  return(var_name)
+  if (exists(var_name)) return(fmt_date(get(var_name)))
+  var_name
 }
 ```
 
@@ -93,6 +91,8 @@ schedule_formatted <- schedule_raw %>%
   )
 
 # Render HTML Table via kable + kableExtra
+cat('<div class="table-responsive">')
+
 schedule_formatted %>%
   knitr::kable(
     format = "html",
@@ -100,6 +100,9 @@ schedule_formatted %>%
     align = c("c", "c", "c", "l", "c", "c", "c", "c"),
     table.attr = 'class="schedule-table"'
   ) %>%
-  row_spec(important_row_indices, extra_css = "font-weight: bold; background-color: #f0f7ff;")
+  row_spec(important_row_indices, extra_css = "font-weight: bold; background-color: #f0f7ff;") %>%
+  cat()
+
+cat('</div>')
 
 ```

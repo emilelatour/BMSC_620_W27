@@ -20,7 +20,7 @@ Throughout the course, emphasis will be placed on selecting appropriate statisti
 *Course materials and structure for BMSC 620 were developed by Emile Latour and informed by prior offerings taught by Meike Niederhausen and Nicky Wakim. Portions of the syllabus, resources, and instructional approach were adapted from their courses, with permission, and modified for this offering.*
 
 ::: grid
-::: g-col-3
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ### Instructor
 
 {{< iconify fluent person-24-filled size=24px >}} [Emile Latour, MS](instructors.qmd)
@@ -31,7 +31,7 @@ Throughout the course, emphasis will be placed on selecting appropriate statisti
 {{< iconify tabler mail-filled size=24px >}} [latour\@ohsu.edu](mailto:latour@ohsu.edu)
 :::
 
-::: g-col-3
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ### Office hours
 
 [Emile](https://ohsu.webex.com/meet/latour)
@@ -46,7 +46,7 @@ Throughout the course, emphasis will be placed on selecting appropriate statisti
 
 :::
 
-::: g-col-3
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ### Course details
 
 {{< iconify fa6-solid calendar-days size=24px >}} Mondays, Wednesdays
@@ -61,7 +61,7 @@ Throughout the course, emphasis will be placed on selecting appropriate statisti
 
 :::
 
-::: g-col-3
+::: {.g-col-12 .g-col-md-6 .g-col-lg-3}
 ### Contact
 
 E-mail is the best way to get in contact with me. I will try to respond to all course-related e-mails within 24 hours Monday-Friday.
@@ -70,11 +70,6 @@ E-mail is the best way to get in contact with me. I will try to respond to all c
 
 ---
 
-::: grid
-::: g-col-9
-:::
-
-::: g-col-3
-[{{< iconify icomoon-free github size=24px >}} View the source on GitHub](https://github.com/emilelatour/BMSC_620_W26){.github-link}
-:::
+::: {style="text-align: right;"}
+[{{< iconify icomoon-free github size=24px >}} View the source on GitHub](https://github.com/emilelatour/BMSC_620_W27){.github-link}
 :::
