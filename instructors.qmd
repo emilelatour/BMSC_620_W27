@@ -1,0 +1,59 @@
+---
+title: "Instructors"
+toc: true
+page-layout: full
+format:
+  html:
+    link-external-newwindow: true
+---
+
+## Teaching team
+
+### Emile Latour, MS (Instructor)
+
+-   **Email:** [latour\@ohsu.edu](mailto:latour@ohsu.edu)
+-   **Campus location:** KCRB
+-   **Pronouns:** he/him/his
+-   **Name:** Please feel free to call me **Emile** (pronounced "eh-MEEL" or "ah-MEEL").\
+    Last name: **Latour** (pronounced "luh-TOOR").
+-   **Best way to contact me:** Email is best for course logistics. Office hours are best for homework, R help, and concepts.
+
+### Teaching assistant(s)
+
+### Joseph Hwang (TA)
+
+- **Email:** [hwangjo@ohsu.edu](mailto:hwangjo@ohsu.edu)
+
+### Nick Chaiyachakorn (TA)
+
+- **Email:** [chaiyach@ohsu.edu](mailto:chaiyach@ohsu.edu)
+
+> Note: If you are unsure who to contact, email Emile and I will route your question.
+
+## Office hours
+
+All office hours will be held via Webex unless otherwise noted.
+
+### Emile (Instructor)
+
+-   **Time:** Thursday, 1:00-2:00 PM
+-   **Webex:** <https://ohsu.webex.com/meet/latour>
+
+### Teaching assistant(s)
+
+### Joseph (TA)
+
+- **Time:** Friday, 10:00-11:00 AM
+- **Webex:** <https://ohsu.webex.com/meet/hwangjo>
+
+### Nick (TA)
+
+- **Time:** Wednesday, 1:00–2:00 PM
+- **Webex:** <https://ohsu.webex.com/meet/chaiyach>
+
+## What to contact us about
+
+-   **Emile (Instructor):** course policies, grading questions, accommodations, schedule issues, and anything sensitive or private.
+-   **TAs:** homework questions, practice problems, and R troubleshooting.
+
+

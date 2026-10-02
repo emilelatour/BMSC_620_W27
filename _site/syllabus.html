@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Syllabus – BMSC 620: Introduction to Biostatistics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b9bb5de7e195162b4b928ed333a06ee7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-100cd94cf99d7f5bf0fd78e0fa747d0b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-b9bb5de7e195162b4b928ed333a06ee7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-75572c60c56583740d606502a200a91e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-75572c60c56583740d606502a200a91e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-75572c60c56583740d606502a200a91e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-md " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">BMSC 620: Introduction to Biostatistics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"> 
+<span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./syllabus.html" aria-current="page"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./instructors.html"> 
+<span class="menu-text">Instructors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./homework.qmd"> 
+<span class="menu-text">Homework</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./exams.qmd"> 
+<span class="menu-text">Exams</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-course-info" id="toc-key-course-info" class="nav-link active" data-scroll-target="#key-course-info">Key course info</a></li>
+  <li><a href="#course-communication" id="toc-course-communication" class="nav-link" data-scroll-target="#course-communication">Course communication</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course description</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
+  <li><a href="#instructors-and-office-hours" id="toc-instructors-and-office-hours" class="nav-link" data-scroll-target="#instructors-and-office-hours">Instructors and office hours</a></li>
+  <li><a href="#meeting-times-and-location" id="toc-meeting-times-and-location" class="nav-link" data-scroll-target="#meeting-times-and-location">Meeting times and location</a>
+  <ul class="collapse">
+  <li><a href="#known-exceptions" id="toc-known-exceptions" class="nav-link" data-scroll-target="#known-exceptions">Known exceptions</a></li>
+  </ul></li>
+  <li><a href="#materials-and-software" id="toc-materials-and-software" class="nav-link" data-scroll-target="#materials-and-software">Materials and software</a></li>
+  <li><a href="#assessment-and-grading" id="toc-assessment-and-grading" class="nav-link" data-scroll-target="#assessment-and-grading">Assessment and grading</a>
+  <ul class="collapse">
+  <li><a href="#homework-40" id="toc-homework-40" class="nav-link" data-scroll-target="#homework-40">Homework (40%)</a></li>
+  <li><a href="#midterm-exam-20" id="toc-midterm-exam-20" class="nav-link" data-scroll-target="#midterm-exam-20">Midterm exam (20%)</a></li>
+  <li><a href="#final-exam-30" id="toc-final-exam-30" class="nav-link" data-scroll-target="#final-exam-30">Final exam (30%)</a></li>
+  <li><a href="#attendance-and-post-class-surveys-10" id="toc-attendance-and-post-class-surveys-10" class="nav-link" data-scroll-target="#attendance-and-post-class-surveys-10">Attendance and post-class surveys (10%)</a></li>
+  </ul></li>
+  <li><a href="#collaboration-and-academic-integrity-2" id="toc-collaboration-and-academic-integrity-2" class="nav-link" data-scroll-target="#collaboration-and-academic-integrity-2">Collaboration and academic integrity</a>
+  <ul class="collapse">
+  <li><a href="#statement-on-generative-ai" id="toc-statement-on-generative-ai" class="nav-link" data-scroll-target="#statement-on-generative-ai">Statement on Generative AI</a></li>
+  </ul></li>
+  <li><a href="#course-policies-and-university-resources" id="toc-course-policies-and-university-resources" class="nav-link" data-scroll-target="#course-policies-and-university-resources">Course policies and university resources</a>
+  <ul class="collapse">
+  <li><a href="#respect-for-diversity-and-inclusion" id="toc-respect-for-diversity-and-inclusion" class="nav-link" data-scroll-target="#respect-for-diversity-and-inclusion">Respect for diversity and inclusion</a></li>
+  <li><a href="#getting-help-and-asking-questions" id="toc-getting-help-and-asking-questions" class="nav-link" data-scroll-target="#getting-help-and-asking-questions">Getting help and asking questions</a></li>
+  <li><a href="#copyright-of-course-materials" id="toc-copyright-of-course-materials" class="nav-link" data-scroll-target="#copyright-of-course-materials">Copyright of course materials</a></li>
+  <li><a href="#university-resources" id="toc-university-resources" class="nav-link" data-scroll-target="#university-resources">University resources</a></li>
+  </ul></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Syllabus</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 2, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="key-course-info" class="level1">
+<h1>Key course info</h1>
+<ul>
+<li><strong>Course website</strong>: This site is the hub for schedules and materials. Assignments and grades will be managed in <strong>Sakai</strong>.</li>
+<li><strong>Software</strong>: We will use <strong>R and RStudio</strong> for homework and in-class examples. (Instructions will be posted on the Resources page.)</li>
+<li><strong>One-day room change</strong>: Class will meet in <strong>MAC 3198 on January</strong> 21 only.</li>
+</ul>
+</section>
+<section id="course-communication" class="level1">
+<h1>Course communication</h1>
+<p><strong>Announcements</strong><br>
+For important or time-sensitive information (e.g., due date changes, clarifications, reminders), I will post announcements on <strong>Sakai</strong>. These announcements will also be delivered to your OHSU email address.</p>
+<p><strong>General course questions</strong><br>
+It is normal to have questions about assignments, course materials, or logistics. Before emailing me, please check the course website and recent announcements, as many questions are shared by multiple students.</p>
+<p>If your question is still unanswered, you are welcome to email me.</p>
+<p><strong>Email</strong><br>
+Email is the best way to reach me for course-related questions. I aim to respond within <strong>24 hours, Monday–Friday</strong>. I do not regularly monitor email on evenings or weekends.</p>
+<p>For privacy reasons, questions about grades or personal circumstances should always be sent by email.</p>
+</section>
+<section id="course-description" class="level1">
+<h1>Course description</h1>
+<p>BMSC 620 introduces fundamental statistical methods commonly used in the biomedical and health sciences, with an emphasis on understanding, interpretation, and clear communication rather than mathematical derivations.</p>
+<p>We will begin with descriptive statistics and graphical methods for summarizing data, followed by basic probability concepts that motivate statistical inference. Key probability and sampling distributions, including the binomial, Poisson, and normal distributions, will be introduced as tools for understanding variability and uncertainty in data.</p>
+<p>The course will then cover confidence intervals and hypothesis testing for one- and two-sample problems using parametric and nonparametric approaches. Additional topics include inference for proportions, analysis of two-way tables, one-way analysis of variance (ANOVA), correlation, and simple linear regression.</p>
+<p>Throughout the course, emphasis will be placed on selecting appropriate methods, interpreting results, and communicating conclusions in a way that is accessible to audiences without formal statistical training. Students will gain hands-on experience using R for basic data management, visualization, and interpretation of statistical output.</p>
+</section>
+<section id="learning-objectives" class="level1">
+<h1>Learning objectives</h1>
+<p>By the end of this course, students should be able to:</p>
+<ol type="1">
+<li>Describe how data relate to a research question of interest.</li>
+<li>Select and implement appropriate statistical methods for estimation and inference using statistical software.</li>
+<li>Interpret and communicate statistical findings to a non-statistical audience in the context of the original research question.</li>
+</ol>
+</section>
+<section id="instructors-and-office-hours" class="level1">
+<h1>Instructors and office hours</h1>
+<p>See the <a href="./instructors.html">Instructors</a> page for contact information and office hours.</p>
+</section>
+<section id="meeting-times-and-location" class="level1">
+<h1>Meeting times and location</h1>
+<ul>
+<li><strong>Days</strong>: Mondays and Wednesdays</li>
+<li><strong>Dates</strong>: January 5 – March 20, 2026</li>
+<li><strong>Time</strong>: 9:00 AM – 10:30 AM</li>
+<li><strong>Location</strong>: RJH 4320 (except January 21 in MAC 3198)</li>
+</ul>
+<section id="known-exceptions" class="level3">
+<h3 class="anchored" data-anchor-id="known-exceptions">Known exceptions</h3>
+<ul>
+<li>Monday, January 19, 2026: Martin Luther King Jr.&nbsp;Day</li>
+<li>Monday, February 16, 2026: Presidents Day</li>
+</ul>
+</section>
+</section>
+<section id="materials-and-software" class="level1">
+<h1>Materials and software</h1>
+<p>See the <a href="./resources.html">Resources</a> page for links to software installation instructions, course handouts, datasets, and other resources.</p>
+</section>
+<section id="assessment-and-grading" class="level1">
+<h1>Assessment and grading</h1>
+<p>Assessment in this course is designed to support learning, practice, and clear communication of statistical ideas. Grades are based on <strong>homework (40%), a take-home midterm exam (20%), a take-home final exam (30%), and attendance via post-class surveys (10%)</strong>. The emphasis throughout is on understanding, interpretation, and reasoning rather than memorization or speed.</p>
+<section id="homework-40" class="level2">
+<h2 class="anchored" data-anchor-id="homework-40">Homework (40%)</h2>
+<p>Homework assignments are designed to help you practice core concepts, develop familiarity with R, and build confidence interpreting statistical results. Homework is primarily a <strong>formative assessment</strong>, meaning its purpose is to support learning rather than to assess perfection.</p>
+<p>There will be regular homework assignments throughout the term. Assignments will typically include a mix of conceptual questions, interpretation, and applied work using R.</p>
+<section id="grading" class="level4">
+<h4 class="anchored" data-anchor-id="grading">Grading</h4>
+<p>Each homework assignment will be graded on a 10-point scale using the following criteria:</p>
+<ul>
+<li><p><strong>Substantial completion (6 points)</strong></p>
+<p>Most required parts of the assignment are attempted (approximately 75–80%). Code and written responses show a genuine effort to engage with the problems, even if some answers are incorrect.</p></li>
+<li><p><strong>Demonstrated process (2 points)</strong></p>
+<p>Relevant work is shown, including R code and intermediate steps where appropriate. The focus is on showing how you approached the problem rather than arriving at a perfect solution.</p></li>
+<li><p><strong>Interpretation and communication (2 points)</strong></p>
+<p>Answers include written interpretation where appropriate, with an attempt to explain results in context (e.g., direction, magnitude, units, or meaning of statistical output).</p></li>
+</ul>
+<p>Homework will be graded primarily for <strong>effort, reasoning, and clarity</strong>, not strict correctness.</p>
+</section>
+<section id="feedback-and-solutions" class="level4">
+<h4 class="anchored" data-anchor-id="feedback-and-solutions">Feedback and solutions</h4>
+<p>Homework solutions will be released <strong>immediately after the submission deadline</strong>. This allows you to review the material and apply feedback while working on the next assignment, even if grading is still in progress.</p>
+<p>For homework submitted on time, the TA will provide feedback on one or more problems.</p>
+<p><strong>Turnaround time</strong>: Homework will be graded and returned within <strong>one week of the due date</strong>, with a target of <strong>Friday</strong> when possible.</p>
+</section>
+<section id="late-and-dropped-homework" class="level4">
+<h4 class="anchored" data-anchor-id="late-and-dropped-homework">Late and dropped homework</h4>
+<ul>
+<li>Late homework will be accepted for <strong>partial credit (up to 80% of the total points)</strong>. Feedback will <strong>only</strong> be provided for homework submitted on time.</li>
+<li>The <strong>lowest homework score will be dropped</strong> when calculating the final homework grade. <strong>HW 0 is excluded from this policy</strong>, as it is intended to ensure technical readiness for the course.</li>
+</ul>
+<p>These policies are intended to provide flexibility for busy schedules while encouraging consistent engagement with the course material.</p>
+</section>
+</section>
+<section id="midterm-exam-20" class="level2">
+<h2 class="anchored" data-anchor-id="midterm-exam-20">Midterm exam (20%)</h2>
+<p>The midterm exam is a <strong>take-home assessment</strong> designed to evaluate your understanding of the material covered in the first half of the course. The emphasis is on <strong>conceptual understanding, interpretation, and clear communication</strong>, rather than speed or memorization.</p>
+<p>The midterm will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately <strong>3–5</strong> hours to complete, though you may choose when and how to distribute that time during the availability window.</p>
+<section id="format-and-resources" class="level4">
+<h4 class="anchored" data-anchor-id="format-and-resources">Format and resources</h4>
+<p>The midterm will consist of a small number of multi-part questions and may include conceptual questions, interpretation of statistical output or visualizations, and applied tasks using R.</p>
+<p>You may use:</p>
+<ul>
+<li>Course notes and slides</li>
+<li>The course website</li>
+<li>R and RStudio</li>
+</ul>
+</section>
+<section id="collaboration-and-academic-integrity" class="level4">
+<h4 class="anchored" data-anchor-id="collaboration-and-academic-integrity">Collaboration and academic integrity</h4>
+<p>You may discuss <strong>general concepts</strong> related to the exam with classmates. However, you must work <strong>independently</strong> on the midterm and submit your own work. Sharing code, written responses, or specific solutions is not permitted.</p>
+</section>
+<section id="use-of-ai-tools" class="level4">
+<h4 class="anchored" data-anchor-id="use-of-ai-tools">Use of AI tools</h4>
+<p>Generative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.</p>
+</section>
+<section id="submission-and-grading" class="level4">
+<h4 class="anchored" data-anchor-id="submission-and-grading">Submission and grading</h4>
+<p>You will submit your midterm exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.</p>
+<p>The midterm will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.</p>
+</section>
+<section id="late-policy" class="level4">
+<h4 class="anchored" data-anchor-id="late-policy">Late policy</h4>
+<ul>
+<li><strong>Extensions</strong> may be granted <strong>by request</strong> and should be discussed with me as soon as possible.</li>
+<li><strong>Unexcused late submissions</strong> will be penalized by <strong>10% per day late</strong>.</li>
+</ul>
+</section>
+</section>
+<section id="final-exam-30" class="level2">
+<h2 class="anchored" data-anchor-id="final-exam-30">Final exam (30%)</h2>
+<p>The final exam is a <strong>take-home assessment</strong> designed to evaluate your ability to synthesize course concepts and communicate statistical results clearly and accurately. The exam is <strong>cumulative</strong>, with an emphasis on <strong>material covered after the midterm</strong>. As with the midterm, the emphasis is on <strong>understanding, interpretation, and reasoning</strong>, rather than speed or memorization.</p>
+<p>The final exam will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately <strong>4–6 hours</strong> to complete, though you may choose when and how to distribute that time during the availability window.</p>
+<section id="format-and-resources-1" class="level4">
+<h4 class="anchored" data-anchor-id="format-and-resources-1">Format and resources</h4>
+<p>The final exam will consist of a small number of multi-part questions that may include:</p>
+<ul>
+<li>Interpretation of numerical summaries, confidence intervals, hypothesis tests, or regression output</li>
+<li>Interpretation of data visualizations</li>
+<li>Applied tasks using R</li>
+<li>Questions that require integrating multiple concepts covered throughout the course</li>
+</ul>
+<p>You may use:</p>
+<ul>
+<li>Course notes and slides</li>
+<li>The course website</li>
+<li>R and RStudio</li>
+</ul>
+</section>
+<section id="collaboration-and-academic-integrity-1" class="level4">
+<h4 class="anchored" data-anchor-id="collaboration-and-academic-integrity-1">Collaboration and academic integrity</h4>
+<p>You may discuss <strong>general concepts</strong> related to the exam with classmates. However, you must work <strong>independently</strong> on the final exam and submit your own work. Sharing code, written responses, or specific solutions is not permitted.</p>
+</section>
+<section id="use-of-ai-tools-1" class="level4">
+<h4 class="anchored" data-anchor-id="use-of-ai-tools-1">Use of AI tools</h4>
+<p>Generative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.</p>
+</section>
+<section id="submission-and-grading-1" class="level4">
+<h4 class="anchored" data-anchor-id="submission-and-grading-1">Submission and grading</h4>
+<p>You will submit your final exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.</p>
+<p>The final exam will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.</p>
+</section>
+<section id="late-policy-1" class="level4">
+<h4 class="anchored" data-anchor-id="late-policy-1">Late policy</h4>
+<ul>
+<li><strong>Extensions</strong> may be granted <strong>by request</strong> and should be discussed with me as soon as possible.</li>
+<li><strong>Unexcused late submissions</strong> will be penalized by <strong>10% per day late</strong>.</li>
+</ul>
+</section>
+</section>
+<section id="attendance-and-post-class-surveys-10" class="level2">
+<h2 class="anchored" data-anchor-id="attendance-and-post-class-surveys-10">Attendance and post-class surveys (10%)</h2>
+<p>Attendance and engagement will be assessed through brief <strong>post-class surveys</strong> submitted after class meetings. These surveys are intended to encourage reflection on the day’s material and to provide feedback that helps improve the course.</p>
+<p>Surveys may include short questions about key takeaways, points of confusion, or course logistics. Surveys are designed to be low-effort and should take only a few minutes to complete.</p>
+<section id="credit-and-expectations" class="level4">
+<h4 class="anchored" data-anchor-id="credit-and-expectations">Credit and expectations</h4>
+<ul>
+<li>You will receive full credit for completing at least <strong>15 out of 20</strong> post-class surveys during the term.</li>
+<li>Surveys are graded for <strong>completion</strong>, not correctness.</li>
+<li>No make-up surveys will be offered, but the 15-of-20 policy is intended to provide flexibility for absences, illness, or scheduling conflicts.</li>
+</ul>
+</section>
+<section id="purpose" class="level4">
+<h4 class="anchored" data-anchor-id="purpose">Purpose</h4>
+<p>Post-class surveys serve two purposes:</p>
+<ol type="1">
+<li>They encourage regular engagement with course material.</li>
+<li>They allow me to identify common questions or areas of confusion and adjust instruction accordingly.</li>
+</ol>
+<p>This component is designed to reward consistent participation without penalizing occasional absences.</p>
+</section>
+</section>
+</section>
+<section id="collaboration-and-academic-integrity-2" class="level1">
+<h1>Collaboration and academic integrity</h1>
+<p>You are encouraged to discuss course concepts and work through problems with classmates. However, anything you submit must reflect your own understanding and be written in your own words.</p>
+<section id="statement-on-generative-ai" class="level3">
+<h3 class="anchored" data-anchor-id="statement-on-generative-ai">Statement on Generative AI</h3>
+<p>ChatGPT and other generative AI tools can be great resources for learning how to code and/or troubleshoot code that does not work. However, the work you turn in must be your own. Thus it is inappropriate to rely on AI to directly provide you with solutions to assessment questions (homework and exams) or write text that you are submitting as your own. If you do use AI tools to help you with an assignment, these must be cited along with how they were used.</p>
+<p>Please see the Plagiarism &amp; Attribution section (Code Snippets and AI Tools subsection) of <a href="https://dmice.ohsu.edu/bedricks/courses/bmi525/policies.html">Dr.&nbsp;Steve Bedrick’s Course Policies site</a> for BMI 525: Principles and Practice of Data Visualization.</p>
+</section>
+</section>
+<section id="course-policies-and-university-resources" class="level1">
+<h1>Course policies and university resources</h1>
+<section id="respect-for-diversity-and-inclusion" class="level3">
+<h3 class="anchored" data-anchor-id="respect-for-diversity-and-inclusion">Respect for diversity and inclusion</h3>
+<p>It is my intent that students from all backgrounds and perspectives be well served by this course, and that the diversity students bring be viewed as a strength and resource for learning. Course materials and activities are designed to be inclusive and respectful of differences in background, identity, experience, and ways of learning.</p>
+<p>I expect all students to engage with one another in a professional, respectful, and supportive manner. If you have suggestions for how this course can better support your learning or the learning of others, I welcome your feedback.</p>
+<p>If any class meetings or deadlines conflict with religious, cultural, or personal obligations, please let me know so we can discuss appropriate accommodations.</p>
+<p>If you have a preferred name or pronouns that differ from those listed on the course roster, please feel free to share them with me.</p>
+</section>
+<section id="getting-help-and-asking-questions" class="level3">
+<h3 class="anchored" data-anchor-id="getting-help-and-asking-questions">Getting help and asking questions</h3>
+<p>Questions are a normal and expected part of learning statistics.</p>
+<p>When asking for help (in office hours or by email), it is helpful to include some context about what you have already tried. For example:</p>
+<ul>
+<li>What part of the problem you understand</li>
+<li>Where you are getting stuck</li>
+<li>Any relevant code, output, or notes you are working from</li>
+</ul>
+<p>Providing context helps me or the TA give more targeted and efficient feedback. You do not need to have a fully formed question to attend office hours.</p>
+</section>
+<section id="copyright-of-course-materials" class="level3">
+<h3 class="anchored" data-anchor-id="copyright-of-course-materials">Copyright of course materials</h3>
+<p>All course materials (including slides, handouts, assignments, and exams) are copyrighted unless otherwise noted. These materials are intended for use only by students enrolled in this course and may not be shared or distributed outside the course without permission.</p>
+<p>This includes publicly posting course materials or completed assignments online.</p>
+<p>Additional institutional copyright policies are provided elsewhere in Sakai.</p>
+</section>
+<section id="university-resources" class="level3">
+<h3 class="anchored" data-anchor-id="university-resources">University resources</h3>
+<p>Official institutional policies and student support resources (including accessibility services and academic support) are provided through Sakai. Please contact me if you have questions or need assistance accessing these resources.</p>
+</section>
+</section>
+<section id="schedule" class="level1">
+<h1>Schedule</h1>
+<p>See the <a href="./schedule.html">Schedule</a> page for the current schedule. The schedule may be adjusted as needed.</p>
+<hr>
+<p><em>Attribution note</em>: This syllabus structure was adapted from departmental course materials, including syllabi by <strong>Meike Niederhausen</strong> and <strong>Nicky Wakim</strong>, with permission, and modified for BMSC 620.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

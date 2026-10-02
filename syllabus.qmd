@@ -1,0 +1,268 @@
+---
+title: "Syllabus"
+date-modified: "today"
+format: 
+  html:
+    toc: true
+    link-external-newwindow: true
+    page-layout: full
+  pdf: default
+---
+
+# Key course info
+
+- **Course website**: This site is the hub for schedules and materials. Assignments and grades will be managed in **Sakai**.
+- **Software**: We will use **R and RStudio** for homework and in-class examples. (Instructions will be posted on the Resources page.)
+- **One-day room change**: Class will meet in **MAC 3198 on January** 21 only.
+
+# Course communication
+
+**Announcements**  
+For important or time-sensitive information (e.g., due date changes, clarifications, reminders), I will post announcements on **Sakai**. These announcements will also be delivered to your OHSU email address.
+
+**General course questions**  
+It is normal to have questions about assignments, course materials, or logistics. Before emailing me, please check the course website and recent announcements, as many questions are shared by multiple students.
+
+If your question is still unanswered, you are welcome to email me.
+
+**Email**  
+Email is the best way to reach me for course-related questions. I aim to respond within **24 hours, Monday–Friday**. I do not regularly monitor email on evenings or weekends.
+
+For privacy reasons, questions about grades or personal circumstances should always be sent by email.
+
+# Course description
+
+BMSC 620 introduces fundamental statistical methods commonly used in the biomedical and health sciences, with an emphasis on understanding, interpretation, and clear communication rather than mathematical derivations.
+
+We will begin with descriptive statistics and graphical methods for summarizing data, followed by basic probability concepts that motivate statistical inference. Key probability and sampling distributions, including the binomial, Poisson, and normal distributions, will be introduced as tools for understanding variability and uncertainty in data.
+
+The course will then cover confidence intervals and hypothesis testing for one- and two-sample problems using parametric and nonparametric approaches. Additional topics include inference for proportions, analysis of two-way tables, one-way analysis of variance (ANOVA), correlation, and simple linear regression.
+
+Throughout the course, emphasis will be placed on selecting appropriate methods, interpreting results, and communicating conclusions in a way that is accessible to audiences without formal statistical training. Students will gain hands-on experience using R for basic data management, visualization, and interpretation of statistical output.
+
+# Learning objectives
+
+By the end of this course, students should be able to:
+
+1. Describe how data relate to a research question of interest.
+2. Select and implement appropriate statistical methods for estimation and inference using statistical software.
+3. Interpret and communicate statistical findings to a non-statistical audience in the context of the original research question.
+
+# Instructors and office hours
+
+See the [Instructors](instructors.qmd) page for contact information and office hours.
+
+# Meeting times and location
+
+- **Days**: Mondays and Wednesdays
+- **Dates**: January 5 – March 20, 2026
+- **Time**: 9:00 AM – 10:30 AM
+- **Location**: RJH 4320 (except January 21 in MAC 3198)
+
+### Known exceptions
+
+- Monday, January 19, 2026: Martin Luther King Jr. Day
+- Monday, February 16, 2026: Presidents Day
+
+# Materials and software
+
+See the [Resources](resources.qmd) page for links to software installation instructions, course handouts, datasets, and other resources.
+
+# Assessment and grading
+
+Assessment in this course is designed to support learning, practice, and clear communication of statistical ideas. Grades are based on **homework (40%), a take-home midterm exam (20%), a take-home final exam (30%), and attendance via post-class surveys (10%)**. The emphasis throughout is on understanding, interpretation, and reasoning rather than memorization or speed.
+
+## Homework (40%)
+
+Homework assignments are designed to help you practice core concepts, develop familiarity with R, and build confidence interpreting statistical results. Homework is primarily a **formative assessment**, meaning its purpose is to support learning rather than to assess perfection.
+
+There will be regular homework assignments throughout the term. Assignments will typically include a mix of conceptual questions, interpretation, and applied work using R.
+
+#### Grading
+
+Each homework assignment will be graded on a 10-point scale using the following criteria:
+
+- **Substantial completion (6 points)**
+
+  Most required parts of the assignment are attempted (approximately 75–80%). Code and written responses show a genuine effort to engage with the problems, even if some answers are incorrect.
+  
+- **Demonstrated process (2 points)**
+
+  Relevant work is shown, including R code and intermediate steps where appropriate. The focus is on showing how you approached the problem rather than arriving at a perfect solution.
+  
+- **Interpretation and communication (2 points)**
+
+  Answers include written interpretation where appropriate, with an attempt to explain results in context (e.g., direction, magnitude, units, or meaning of statistical output).
+
+Homework will be graded primarily for **effort, reasoning, and clarity**, not strict correctness.
+
+#### Feedback and solutions
+
+Homework solutions will be released **immediately after the submission deadline**. This allows you to review the material and apply feedback while working on the next assignment, even if grading is still in progress.
+
+For homework submitted on time, the TA will provide feedback on one or more problems.
+
+**Turnaround time**: Homework will be graded and returned within **one week of the due date**, with a target of **Friday** when possible.
+
+#### Late and dropped homework
+
+- Late homework will be accepted for **partial credit (up to 80% of the total points)**. Feedback will **only** be provided for homework submitted on time.
+- The **lowest homework score will be dropped** when calculating the final homework grade. **HW 0 is excluded from this policy**, as it is intended to ensure technical readiness for the course.
+
+These policies are intended to provide flexibility for busy schedules while encouraging consistent engagement with the course material.
+
+
+## Midterm exam (20%)
+
+The midterm exam is a **take-home assessment** designed to evaluate your understanding of the material covered in the first half of the course. The emphasis is on **conceptual understanding, interpretation, and clear communication**, rather than speed or memorization.
+
+The midterm will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately **3–5** hours to complete, though you may choose when and how to distribute that time during the availability window.
+
+#### Format and resources
+
+The midterm will consist of a small number of multi-part questions and may include conceptual questions, interpretation of statistical output or visualizations, and applied tasks using R.
+
+You may use:
+
+- Course notes and slides
+- The course website
+- R and RStudio
+
+#### Collaboration and academic integrity
+
+You may discuss **general concepts** related to the exam with classmates. However, you must work **independently** on the midterm and submit your own work. Sharing code, written responses, or specific solutions is not permitted.
+
+#### Use of AI tools
+
+Generative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.
+
+#### Submission and grading
+
+You will submit your midterm exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.
+
+The midterm will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.
+
+#### Late policy
+
+- **Extensions** may be granted **by request** and should be discussed with me as soon as possible.
+- **Unexcused late submissions** will be penalized by **10% per day late**.
+
+## Final exam (30%)
+
+The final exam is a **take-home assessment** designed to evaluate your ability to synthesize course concepts and communicate statistical results clearly and accurately. The exam is **cumulative**, with an emphasis on **material covered after the midterm**. As with the midterm, the emphasis is on **understanding, interpretation, and reasoning**, rather than speed or memorization.
+
+The final exam will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately **4–6 hours** to complete, though you may choose when and how to distribute that time during the availability window.
+
+#### Format and resources
+
+The final exam will consist of a small number of multi-part questions that may include:
+
+- Interpretation of numerical summaries, confidence intervals, hypothesis tests, or regression output
+- Interpretation of data visualizations
+- Applied tasks using R
+- Questions that require integrating multiple concepts covered throughout the course
+
+You may use:
+
+- Course notes and slides
+- The course website
+- R and RStudio
+
+#### Collaboration and academic integrity
+
+You may discuss **general concepts** related to the exam with classmates. However, you must work **independently** on the final exam and submit your own work. Sharing code, written responses, or specific solutions is not permitted.
+
+#### Use of AI tools
+
+Generative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.
+
+#### Submission and grading
+
+You will submit your final exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.
+
+The final exam will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.
+
+#### Late policy
+
+- **Extensions** may be granted **by request** and should be discussed with me as soon as possible.
+- **Unexcused late submissions** will be penalized by **10% per day late**.
+
+## Attendance and post-class surveys (10%)
+
+Attendance and engagement will be assessed through brief **post-class surveys** submitted after class meetings. These surveys are intended to encourage reflection on the day’s material and to provide feedback that helps improve the course.
+
+Surveys may include short questions about key takeaways, points of confusion, or course logistics. Surveys are designed to be low-effort and should take only a few minutes to complete.
+
+#### Credit and expectations
+
+- You will receive full credit for completing at least **15 out of 20** post-class surveys during the term.
+- Surveys are graded for **completion**, not correctness.
+- No make-up surveys will be offered, but the 15-of-20 policy is intended to provide flexibility for absences, illness, or scheduling conflicts.
+
+#### Purpose
+
+Post-class surveys serve two purposes:
+
+1. They encourage regular engagement with course material.
+2. They allow me to identify common questions or areas of confusion and adjust instruction accordingly.
+
+This component is designed to reward consistent participation without penalizing occasional absences.
+
+
+# Collaboration and academic integrity
+
+You are encouraged to discuss course concepts and work through problems with classmates. However, anything you submit must reflect your own understanding and be written in your own words.
+
+### Statement on Generative AI
+
+ChatGPT and other generative AI tools can be great resources for learning how to code and/or troubleshoot code that does not work. However, the work you turn in must be your own. Thus it is inappropriate to rely on AI to directly provide you with solutions to assessment questions (homework and exams) or write text that you are submitting as your own. If you do use AI tools to help you with an assignment, these must be cited along with how they were used.
+
+Please see the Plagiarism & Attribution section (Code Snippets and AI Tools subsection) of [Dr. Steve Bedrick's Course Policies site](https://dmice.ohsu.edu/bedricks/courses/bmi525/policies.html) for BMI 525: Principles and Practice of Data Visualization. 
+
+# Course policies and university resources
+
+### Respect for diversity and inclusion
+
+It is my intent that students from all backgrounds and perspectives be well served by this course, and that the diversity students bring be viewed as a strength and resource for learning. Course materials and activities are designed to be inclusive and respectful of differences in background, identity, experience, and ways of learning.
+
+I expect all students to engage with one another in a professional, respectful, and supportive manner. If you have suggestions for how this course can better support your learning or the learning of others, I welcome your feedback.
+
+If any class meetings or deadlines conflict with religious, cultural, or personal obligations, please let me know so we can discuss appropriate accommodations.
+
+If you have a preferred name or pronouns that differ from those listed on the course roster, please feel free to share them with me.
+
+### Getting help and asking questions
+
+Questions are a normal and expected part of learning statistics.
+
+When asking for help (in office hours or by email), it is helpful to include some context about what you have already tried. For example:
+
+- What part of the problem you understand
+- Where you are getting stuck
+- Any relevant code, output, or notes you are working from
+
+Providing context helps me or the TA give more targeted and efficient feedback. You do not need to have a fully formed question to attend office hours.
+
+### Copyright of course materials
+
+All course materials (including slides, handouts, assignments, and exams) are copyrighted unless otherwise noted. These materials are intended for use only by students enrolled in this course and may not be shared or distributed outside the course without permission.
+
+This includes publicly posting course materials or completed assignments online.
+
+Additional institutional copyright policies are provided elsewhere in Sakai.
+
+### University resources
+
+Official institutional policies and student support resources (including accessibility services and academic support) are provided through Sakai. Please contact me if you have questions or need assistance accessing these resources.
+
+# Schedule
+
+See the [Schedule](schedule.qmd) page for the current schedule. The schedule may be adjusted as needed.
+
+------------------------------------------------------------------------
+
+*Attribution note*: This syllabus structure was adapted from departmental course materials, including syllabi by **Meike Niederhausen** and **Nicky Wakim**, with permission, and modified for BMSC 620.
+
+
+
+

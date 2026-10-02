@@ -1,0 +1,164 @@
+---
+title: "Resources"
+format: 
+  html:
+    toc: true
+    link-external-newwindow: true
+    page-layout: full
+  pdf: default
+---
+
+
+This page contains links to course materials, software setup, and shared resources. I will update it throughout the term.
+
+## Textbook and readings
+
+### Primary textbook
+
+*Introductory Statistics for the Life and Biomedical Sciences* by Julie Vu and David Harrington
+
+- The textbook website is <https://openintro.org/book/biostat/>
+- The full PDF is free (with an optional contribution).
+- A tablet-friendly PDF version with smaller margins is also available and may be easier to read.
+
+### Supplementary reading (optional)
+
+- *An Introduction to R* ([free pdf](http://cran.r-project.org/manuals.html))
+
+## Course platforms
+
+### Sakai
+
+Assignments, submissions, and grades will be managed through [Sakai](https://sakai.ohsu.edu/), OHSU's learning management system.
+
+Links to Sakai assignments will be provided on this website.
+
+### Shared course folder (OneDrive)
+
+A shared OneDrive folder will be used to distribute datasets, handouts, and other course files that do not live directly on this website.
+
+- The folder will include datasets used in class and on homework.
+- Files will be organized by topic or week.
+- Links to specific files may also appear on the Schedule page.
+
+[Link to class OneDrive folder](https://ohsuitg-my.sharepoint.com/:f:/g/personal/latour_ohsu_edu/IgCzFL46JxYtQYOScuzb1OrIAfeUyniSwrT6HsHk6zlALVk?e=3JSQGX)
+
+### Office hours platform
+
+Webex will be used for virtual office hours when applicable.
+
+To help sessions run smoothly:
+
+- Please stay muted until you want to ask a question.
+- Use the chat to indicate when you have a question.
+- Video is encouraged but not required.
+
+## Statistical software
+
+We will use **R** and **RStudio** for homework assignments and in-class examples. 
+
+**Quarto** will be used for creating reproducible reports.
+
+### Installation
+
+Please install the following software:
+
+1. R <https://www.r-project.org/>
+2. RStudio Desktop <https://posit.co/download/rstudio-desktop/>
+3. Quarto <https://quarto.org/docs/get-started/>
+
+Helpful installation documentation is available here: <https://rstudio-education.github.io/hopr/starting.html>
+
+Also, this [handout](/resources/R info.pdf) by Meike Neiderhausen which contains some good additional resources for R.
+
+I encourage you to install these before the first class. We will reserve time early in the term to troubleshoot installation issues.
+
+If you run into problems, please email me and include:
+
+- Your operating system (Windows or Mac)
+- The full error message (copy/paste or screenshot)
+- What you have already tried
+
+### RStudio cheatsheets and shortcuts
+
+RStudio provides helpful reference materials for common tasks and packages.
+
+#### Official RStudio cheatsheets
+
+These one-page reference guides are extremely helpful when learning R:
+
+- Access them in RStudio: **Help → Cheatsheets**
+- Or download directly: <https://posit.co/resources/cheatsheets/>
+
+**Most relevant for this course:**
+
+- **RStudio IDE Cheat Sheet** - Overview of RStudio interface and keyboard shortcuts
+- **Data Transformation with dplyr** - The verbs we use for data manipulation
+- **Data Visualization with ggplot2** - Creating effective visualizations
+- **R Markdown Cheat Sheet** - Also applies to Quarto documents
+
+I recommend printing or bookmarking the dplyr and ggplot2 cheatsheets - you'll reference them frequently!
+
+#### Keyboard shortcuts
+
+Learning a few keyboard shortcuts will make your workflow much faster. 
+
+[**View essential keyboard shortcuts**](/resources/keyboard_shortcuts.qmd) - A quick reference for Mac and PC with the shortcuts you'll use most.
+
+The most important ones:
+
+- `Cmd/Ctrl + Shift + M` - Insert pipe `%>%`
+- `Cmd/Ctrl + Enter` - Run current line/selection
+- `Cmd/Ctrl + Shift + C` - Comment/uncomment lines
+
+You can view all available shortcuts in RStudio: **Tools → Keyboard Shortcuts Help** (or press `Option/Alt + Shift + K`)
+
+### Additional R resources (optional)
+
+These resources are not required, but may be helpful if you want extra practice or alternative explanations.
+
+#### Useful online R resources
+
+-   [R for the rest of us](https://rfortherestofus.com/)
+-   Statistical tools for high-throughput data analysis: [ggplot2 essentials](http://www.sthda.com/english/wiki/ggplot2-essentials#google_vignette)
+-   [R-bloggers](http://www.r-bloggers.com/)
+-   Stack Overflow for troubleshooting
+-   [R Graphical Manual](https://www.imsbio.co.jp/RGM/R_image_list)
+-   [Quick-R](http://www.statmethods.net/). Accessing the power of R
+-   [R for SAS, STATA, and SPSS Users](http://r4stats.com/)
+-   [ggplot2](https://ggplot2.tidyverse.org/)
+-   [Learn R 4 free](https://www.learnr4free.com/en/index.html)
+-   [Join a local R user groups](https://www.r-consortium.org/blog/2019/09/09/r-community-explorer-r-user-groups)
+-   [Learning Machines](https://blog.ephorie.de/learning-r-the-ultimate-introduction-incl-machine-learning)
+-   [Data and Analytics for Research Training Program: Look at Modules with R coding language](https://arcus.github.io/education_modules/list_of_modules)
+
+#### Online R courses to complement or refresh material from class
+
+-   [R for the rest of us](https://rfortherestofus.com/)
+-   Coursera: [R programming](https://www.coursera.org/learn/r-programming)
+-   edX: [R basics](https://www.edx.org/course/data-science-r-basics)
+-   [Data Carpentry for Biologists](https://datacarpentry.github.io/semester-biology/)
+-   Data Carpentry: [For Ecologists](https://datacarpentry.github.io/R-ecology-lesson/)
+-   [Psychiatric R](https://psyteachr.github.io/)
+-   [R coder](https://r-coder.com/)
+
+## Course reference materials
+
+These documents are intended as ongoing references throughout the course. 
+Bookmark or download them for use on homework and exams.
+
+### Statistical interpretation guide
+
+A checklist and worked example for writing up complete statistical results, 
+including how to state hypotheses, what to report, and how to phrase conclusions.
+
+[**Elements of a Complete Statistical Interpretation**](/resources/interpretation_guide.qmd)
+
+## Weekly materials
+
+Lecture slides, datasets, and handouts will be linked from the [Schedule](schedule.qmd) page by week, with files hosted either on this website or in the shared OneDrive folder.
+
+------------------------------------------------------------------------
+
+*Attribution note:* Portions of this Resources page were adapted from course materials by Nicky Wakim, with permission, and modified for BMSC 620.
+

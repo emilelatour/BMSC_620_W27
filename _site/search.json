@@ -18,7 +18,7 @@
     "href": "schedule.html",
     "title": "Course Schedule",
     "section": "",
-    "text": "Week\nDate\nLesson\nTopic\nReadings\nKey Info\nSlides\nRecording\n\n\n\n\n1\nMon, 09/28\n0\nWelcome\n\n\n\n    \n\n\n\n\n\n1\nData collection\nSec 1.3\n\n    \n\n\n\n\nWed, 09/30\n2\nIntro to data & numerical summaries\nSec 1.2, 1.4\n\n    \n\n\n\n\nSat, 10/03\n\n\n\n\nHW 0 due @ 11 pm\n\n\n\n\n\n2\nMon, 10/05\n3\nDefining Probability\nSec 2.1\n\n    \n\n\n\n\n\nR01\nDownload R & RStudio\n\n\n\n    \n\n\n\n\nWed, 10/07\n4\nConditional Probability\nSec 2.2\n\n    \n\n\n\n\nSat, 10/10\n\n\n\n\nHW 1 due @ 11 pm\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Week\nDate\nLesson\nTopic\nReadings\nKey Info\nSlides\nRecording\n\n\n\n\n1\nMon, 09/28\n0\nWelcome\n\n\n    \n\n\n\n\n\n1\nData collection\nSec 1.3\n\n    \n\n\n\n\nWed, 09/30\n2\nIntro to data & numerical summaries\nSec 1.2, 1.4\n\n    \n\n\n\n\nSat, 10/03\n\nHW 0 due @ 11 pm\n\n\n\n\n\n\n2\nMon, 10/05\n3\nDefining Probability\nSec 2.1\n\n    \n\n\n\n\n\nR01\nDownload R & RStudio\n\n\n    \n\n\n\n\nWed, 10/07\n4\nConditional Probability\nSec 2.2\n\n    \n\n\n\n\nSat, 10/10\n\nHW 1 due @ 11 pm\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "schedule2.html",
@@ -26,5 +26,110 @@
     "title": "Course Schedule",
     "section": "",
     "text": "Week\nDate\nLesson\nTopic\nReadings\nKey Info\nSlides\nRecording\n\n\n\n\n1\nMon, 09/28\n0\nWelcome\n\n\n    \n\n\n\n\n\n1\nData collection\nSec 1.3\n\n    \n\n\n\n\nWed, 09/30\n2\nIntro to data & numerical summaries\nSec 1.2, 1.4\n\n    \n\n\n\n\nSat, 10/03\n\nHW 0 due @ 11 pm\n\n\n\n\n\n\n2\nMon, 10/05\n3\nDefining Probability\nSec 2.1\n\n    \n\n\n\n\n\nR01\nDownload R & RStudio\n\n\n    \n\n\n\n\nWed, 10/07\n4\nConditional Probability\nSec 2.2\n\n    \n\n\n\n\nSat, 10/10\n\nHW 1 due @ 11 pm\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Course website: This site is the hub for schedules and materials. Assignments and grades will be managed in Sakai.\nSoftware: We will use R and RStudio for homework and in-class examples. (Instructions will be posted on the Resources page.)\nOne-day room change: Class will meet in MAC 3198 on January 21 only."
+  },
+  {
+    "objectID": "syllabus.html#homework-40",
+    "href": "syllabus.html#homework-40",
+    "title": "Syllabus",
+    "section": "Homework (40%)",
+    "text": "Homework (40%)\nHomework assignments are designed to help you practice core concepts, develop familiarity with R, and build confidence interpreting statistical results. Homework is primarily a formative assessment, meaning its purpose is to support learning rather than to assess perfection.\nThere will be regular homework assignments throughout the term. Assignments will typically include a mix of conceptual questions, interpretation, and applied work using R.\n\nGrading\nEach homework assignment will be graded on a 10-point scale using the following criteria:\n\nSubstantial completion (6 points)\nMost required parts of the assignment are attempted (approximately 75–80%). Code and written responses show a genuine effort to engage with the problems, even if some answers are incorrect.\nDemonstrated process (2 points)\nRelevant work is shown, including R code and intermediate steps where appropriate. The focus is on showing how you approached the problem rather than arriving at a perfect solution.\nInterpretation and communication (2 points)\nAnswers include written interpretation where appropriate, with an attempt to explain results in context (e.g., direction, magnitude, units, or meaning of statistical output).\n\nHomework will be graded primarily for effort, reasoning, and clarity, not strict correctness.\n\n\nFeedback and solutions\nHomework solutions will be released immediately after the submission deadline. This allows you to review the material and apply feedback while working on the next assignment, even if grading is still in progress.\nFor homework submitted on time, the TA will provide feedback on one or more problems.\nTurnaround time: Homework will be graded and returned within one week of the due date, with a target of Friday when possible.\n\n\nLate and dropped homework\n\nLate homework will be accepted for partial credit (up to 80% of the total points). Feedback will only be provided for homework submitted on time.\nThe lowest homework score will be dropped when calculating the final homework grade. HW 0 is excluded from this policy, as it is intended to ensure technical readiness for the course.\n\nThese policies are intended to provide flexibility for busy schedules while encouraging consistent engagement with the course material."
+  },
+  {
+    "objectID": "syllabus.html#midterm-exam-20",
+    "href": "syllabus.html#midterm-exam-20",
+    "title": "Syllabus",
+    "section": "Midterm exam (20%)",
+    "text": "Midterm exam (20%)\nThe midterm exam is a take-home assessment designed to evaluate your understanding of the material covered in the first half of the course. The emphasis is on conceptual understanding, interpretation, and clear communication, rather than speed or memorization.\nThe midterm will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately 3–5 hours to complete, though you may choose when and how to distribute that time during the availability window.\n\nFormat and resources\nThe midterm will consist of a small number of multi-part questions and may include conceptual questions, interpretation of statistical output or visualizations, and applied tasks using R.\nYou may use:\n\nCourse notes and slides\nThe course website\nR and RStudio\n\n\n\nCollaboration and academic integrity\nYou may discuss general concepts related to the exam with classmates. However, you must work independently on the midterm and submit your own work. Sharing code, written responses, or specific solutions is not permitted.\n\n\nUse of AI tools\nGenerative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.\n\n\nSubmission and grading\nYou will submit your midterm exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.\nThe midterm will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.\n\n\nLate policy\n\nExtensions may be granted by request and should be discussed with me as soon as possible.\nUnexcused late submissions will be penalized by 10% per day late."
+  },
+  {
+    "objectID": "syllabus.html#final-exam-30",
+    "href": "syllabus.html#final-exam-30",
+    "title": "Syllabus",
+    "section": "Final exam (30%)",
+    "text": "Final exam (30%)\nThe final exam is a take-home assessment designed to evaluate your ability to synthesize course concepts and communicate statistical results clearly and accurately. The exam is cumulative, with an emphasis on material covered after the midterm. As with the midterm, the emphasis is on understanding, interpretation, and reasoning, rather than speed or memorization.\nThe final exam will be available for several days, with the exact release and due dates listed on the course schedule and in Sakai. The exam is designed to take approximately 4–6 hours to complete, though you may choose when and how to distribute that time during the availability window.\n\nFormat and resources\nThe final exam will consist of a small number of multi-part questions that may include:\n\nInterpretation of numerical summaries, confidence intervals, hypothesis tests, or regression output\nInterpretation of data visualizations\nApplied tasks using R\nQuestions that require integrating multiple concepts covered throughout the course\n\nYou may use:\n\nCourse notes and slides\nThe course website\nR and RStudio\n\n\n\nCollaboration and academic integrity\nYou may discuss general concepts related to the exam with classmates. However, you must work independently on the final exam and submit your own work. Sharing code, written responses, or specific solutions is not permitted.\n\n\nUse of AI tools\nGenerative AI tools (e.g., ChatGPT) may be used for limited support such as clarifying R error messages or syntax. They may not be used to generate solutions, interpret results, or write responses for the exam. Any use of AI tools must be consistent with the course’s academic integrity policy.\n\n\nSubmission and grading\nYou will submit your final exam via Sakai. Instructions regarding file formats and submission details will be provided with the exam.\nThe final exam will be graded based on correctness, reasoning, and clarity of interpretation. Partial credit will be awarded where appropriate.\n\n\nLate policy\n\nExtensions may be granted by request and should be discussed with me as soon as possible.\nUnexcused late submissions will be penalized by 10% per day late."
+  },
+  {
+    "objectID": "syllabus.html#attendance-and-post-class-surveys-10",
+    "href": "syllabus.html#attendance-and-post-class-surveys-10",
+    "title": "Syllabus",
+    "section": "Attendance and post-class surveys (10%)",
+    "text": "Attendance and post-class surveys (10%)\nAttendance and engagement will be assessed through brief post-class surveys submitted after class meetings. These surveys are intended to encourage reflection on the day’s material and to provide feedback that helps improve the course.\nSurveys may include short questions about key takeaways, points of confusion, or course logistics. Surveys are designed to be low-effort and should take only a few minutes to complete.\n\nCredit and expectations\n\nYou will receive full credit for completing at least 15 out of 20 post-class surveys during the term.\nSurveys are graded for completion, not correctness.\nNo make-up surveys will be offered, but the 15-of-20 policy is intended to provide flexibility for absences, illness, or scheduling conflicts.\n\n\n\nPurpose\nPost-class surveys serve two purposes:\n\nThey encourage regular engagement with course material.\nThey allow me to identify common questions or areas of confusion and adjust instruction accordingly.\n\nThis component is designed to reward consistent participation without penalizing occasional absences."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page contains links to course materials, software setup, and shared resources. I will update it throughout the term."
+  },
+  {
+    "objectID": "resources.html#textbook-and-readings",
+    "href": "resources.html#textbook-and-readings",
+    "title": "Resources",
+    "section": "Textbook and readings",
+    "text": "Textbook and readings\n\nPrimary textbook\nIntroductory Statistics for the Life and Biomedical Sciences by Julie Vu and David Harrington\n\nThe textbook website is https://openintro.org/book/biostat/\nThe full PDF is free (with an optional contribution).\nA tablet-friendly PDF version with smaller margins is also available and may be easier to read.\n\n\n\nSupplementary reading (optional)\n\nAn Introduction to R (free pdf)"
+  },
+  {
+    "objectID": "resources.html#course-platforms",
+    "href": "resources.html#course-platforms",
+    "title": "Resources",
+    "section": "Course platforms",
+    "text": "Course platforms\n\nSakai\nAssignments, submissions, and grades will be managed through Sakai, OHSU’s learning management system.\nLinks to Sakai assignments will be provided on this website.\n\n\nShared course folder (OneDrive)\nA shared OneDrive folder will be used to distribute datasets, handouts, and other course files that do not live directly on this website.\n\nThe folder will include datasets used in class and on homework.\nFiles will be organized by topic or week.\nLinks to specific files may also appear on the Schedule page.\n\nLink to class OneDrive folder\n\n\nOffice hours platform\nWebex will be used for virtual office hours when applicable.\nTo help sessions run smoothly:\n\nPlease stay muted until you want to ask a question.\nUse the chat to indicate when you have a question.\nVideo is encouraged but not required."
+  },
+  {
+    "objectID": "resources.html#statistical-software",
+    "href": "resources.html#statistical-software",
+    "title": "Resources",
+    "section": "Statistical software",
+    "text": "Statistical software\nWe will use R and RStudio for homework assignments and in-class examples.\nQuarto will be used for creating reproducible reports.\n\nInstallation\nPlease install the following software:\n\nR https://www.r-project.org/\nRStudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/get-started/\n\nHelpful installation documentation is available here: https://rstudio-education.github.io/hopr/starting.html\nAlso, this handout by Meike Neiderhausen which contains some good additional resources for R.\nI encourage you to install these before the first class. We will reserve time early in the term to troubleshoot installation issues.\nIf you run into problems, please email me and include:\n\nYour operating system (Windows or Mac)\nThe full error message (copy/paste or screenshot)\nWhat you have already tried\n\n\n\nRStudio cheatsheets and shortcuts\nRStudio provides helpful reference materials for common tasks and packages.\n\nOfficial RStudio cheatsheets\nThese one-page reference guides are extremely helpful when learning R:\n\nAccess them in RStudio: Help → Cheatsheets\nOr download directly: https://posit.co/resources/cheatsheets/\n\nMost relevant for this course:\n\nRStudio IDE Cheat Sheet - Overview of RStudio interface and keyboard shortcuts\nData Transformation with dplyr - The verbs we use for data manipulation\nData Visualization with ggplot2 - Creating effective visualizations\nR Markdown Cheat Sheet - Also applies to Quarto documents\n\nI recommend printing or bookmarking the dplyr and ggplot2 cheatsheets - you’ll reference them frequently!\n\n\nKeyboard shortcuts\nLearning a few keyboard shortcuts will make your workflow much faster.\nView essential keyboard shortcuts - A quick reference for Mac and PC with the shortcuts you’ll use most.\nThe most important ones:\n\nCmd/Ctrl + Shift + M - Insert pipe %&gt;%\nCmd/Ctrl + Enter - Run current line/selection\nCmd/Ctrl + Shift + C - Comment/uncomment lines\n\nYou can view all available shortcuts in RStudio: Tools → Keyboard Shortcuts Help (or press Option/Alt + Shift + K)\n\n\n\nAdditional R resources (optional)\nThese resources are not required, but may be helpful if you want extra practice or alternative explanations.\n\nUseful online R resources\n\nR for the rest of us\nStatistical tools for high-throughput data analysis: ggplot2 essentials\nR-bloggers\nStack Overflow for troubleshooting\nR Graphical Manual\nQuick-R. Accessing the power of R\nR for SAS, STATA, and SPSS Users\nggplot2\nLearn R 4 free\nJoin a local R user groups\nLearning Machines\nData and Analytics for Research Training Program: Look at Modules with R coding language\n\n\n\nOnline R courses to complement or refresh material from class\n\nR for the rest of us\nCoursera: R programming\nedX: R basics\nData Carpentry for Biologists\nData Carpentry: For Ecologists\nPsychiatric R\nR coder"
+  },
+  {
+    "objectID": "resources.html#course-reference-materials",
+    "href": "resources.html#course-reference-materials",
+    "title": "Resources",
+    "section": "Course reference materials",
+    "text": "Course reference materials\nThese documents are intended as ongoing references throughout the course. Bookmark or download them for use on homework and exams.\n\nStatistical interpretation guide\nA checklist and worked example for writing up complete statistical results, including how to state hypotheses, what to report, and how to phrase conclusions.\nElements of a Complete Statistical Interpretation"
+  },
+  {
+    "objectID": "resources.html#weekly-materials",
+    "href": "resources.html#weekly-materials",
+    "title": "Resources",
+    "section": "Weekly materials",
+    "text": "Weekly materials\nLecture slides, datasets, and handouts will be linked from the Schedule page by week, with files hosted either on this website or in the shared OneDrive folder.\n\nAttribution note: Portions of this Resources page were adapted from course materials by Nicky Wakim, with permission, and modified for BMSC 620."
+  },
+  {
+    "objectID": "instructors.html",
+    "href": "instructors.html",
+    "title": "Instructors",
+    "section": "",
+    "text": "Email: latour@ohsu.edu\nCampus location: KCRB\nPronouns: he/him/his\nName: Please feel free to call me Emile (pronounced “eh-MEEL” or “ah-MEEL”).\nLast name: Latour (pronounced “luh-TOOR”).\nBest way to contact me: Email is best for course logistics. Office hours are best for homework, R help, and concepts.\n\n\n\n\n\n\n\n\nEmail: hwangjo@ohsu.edu\n\n\n\n\n\nEmail: chaiyach@ohsu.edu\n\n\nNote: If you are unsure who to contact, email Emile and I will route your question."
+  },
+  {
+    "objectID": "instructors.html#teaching-team",
+    "href": "instructors.html#teaching-team",
+    "title": "Instructors",
+    "section": "",
+    "text": "Email: latour@ohsu.edu\nCampus location: KCRB\nPronouns: he/him/his\nName: Please feel free to call me Emile (pronounced “eh-MEEL” or “ah-MEEL”).\nLast name: Latour (pronounced “luh-TOOR”).\nBest way to contact me: Email is best for course logistics. Office hours are best for homework, R help, and concepts.\n\n\n\n\n\n\n\n\nEmail: hwangjo@ohsu.edu\n\n\n\n\n\nEmail: chaiyach@ohsu.edu\n\n\nNote: If you are unsure who to contact, email Emile and I will route your question."
+  },
+  {
+    "objectID": "instructors.html#office-hours",
+    "href": "instructors.html#office-hours",
+    "title": "Instructors",
+    "section": "Office hours",
+    "text": "Office hours\nAll office hours will be held via Webex unless otherwise noted.\n\nEmile (Instructor)\n\nTime: Thursday, 1:00-2:00 PM\nWebex: https://ohsu.webex.com/meet/latour\n\n\n\nTeaching assistant(s)\n\n\nJoseph (TA)\n\nTime: Friday, 10:00-11:00 AM\nWebex: https://ohsu.webex.com/meet/hwangjo\n\n\n\nNick (TA)\n\nTime: Wednesday, 1:00–2:00 PM\nWebex: https://ohsu.webex.com/meet/chaiyach"
+  },
+  {
+    "objectID": "instructors.html#what-to-contact-us-about",
+    "href": "instructors.html#what-to-contact-us-about",
+    "title": "Instructors",
+    "section": "What to contact us about",
+    "text": "What to contact us about\n\nEmile (Instructor): course policies, grading questions, accommodations, schedule issues, and anything sensitive or private.\nTAs: homework questions, practice problems, and R troubleshooting."
   }
 ]
